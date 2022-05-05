@@ -1,0 +1,72 @@
+.calc{
+    width: 275px;
+    margin: 30px auto;
+    display: flex;
+    background-color: rgb(228, 225, 225);
+    border-radius:  10px;
+    border: 3px solid rgb(31, 31, 31);
+   
+}
+.enter-input{
+    margin-top: 2px;
+    margin-left: 9px;
+    width: 25%;
+    font-size: 12px;
+}
+input{
+    margin-top: 7px;
+    background-color: rgb(88, 172, 240);
+    border: solid 3px gray;
+    border-radius: 3px;
+    text-align: end;
+    font-size: 25px;
+    width: 165px;
+    color: white;
+}
+.num, .numC, .num1{
+    border-radius: 20px;
+    font-size: 35px;
+    margin: 3.5px;
+    border: solid 3px black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 125%;
+    background-color: gray;
+    color: white;
+}
+.numC{
+    color: red;
+}
+.n123{
+    display: flex;
+    margin: 5px;
+}
+.nSign{
+    font-size: 45px;
+    
+}
+.sign, .equal{
+    font-family: Arial, Helvetica, sans-serif, bold;
+    padding-left: 9px;
+    display: flex;
+    margin-bottom: 7px;
+    border: solid 3px black;
+    border-radius: 20px;
+    width: 50px;
+    height: 51px;
+    background-color: gray;
+    color: green;
+}
+#rec1{
+    padding-top: 2px;
+    padding-left: 10px;
+    text-align: center;
+}
+#rec2{
+    padding-left: 13px;
+    padding-top: 0px;
+}
+#rec3{
+    padding-left: 10px;
+}
